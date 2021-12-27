@@ -1,0 +1,859 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* Navigation */
+
+.bc-color-box2 .b {
+    margin-left: 0px;
+}
+
+
+nav ul .table-booking{
+    width:150px;
+    height:40px;
+    background-color:rgb(255, 186, 57);
+    border:none;
+    border-radius:50px;
+    color:#fff;
+    font-size:15px;
+    font-family:"poppins";
+}
+
+nav ul .table-booking:hover{
+    background-color:#f8a72def;
+    transition-duration:1s;
+}
+
+nav{
+    background-color:rgb(46, 45, 45);
+    padding:14px 0px;
+    background-attachment:fixed;
+}
+
+nav .navbar-header a{
+    font-family:"satisfy";
+    font-weight:500;
+    font-size:30px;
+}
+
+nav .navbar-header a:hover{
+    color:#fff;
+}
+
+nav .navbar-collapse li{
+    font-family:"poppins";
+    font-size:15px;
+}
+
+nav .navbar-collapse li a:hover{
+    color:orange;
+    transition-duration:1s;
+}
+
+nav .navbar-collapse .c-org:hover{
+    color:orange;
+    transition-duration:1s;
+}
+
+nav .navbar-collapse .org{
+    color:orange;
+}
+
+.navbar-toggle{
+    background-color:#fff;
+}
+
+.navbar-toggle .icon-bar{
+    background-color:black;
+}
+
+/* carousel */
+
+.carousel-caption h1{
+    font-family:"satisfy";
+    font-weight:800;
+    font-size:52px;
+}
+
+.carousel-caption .orange{
+    color:orange;
+}
+
+.carouse-inner .item img{
+    width:100%;
+    height:30%;
+    background-size:cover;
+}
+
+.carousel-caption p{
+    font-size:18px;
+    font-family:"poppins";
+    margin:40px 0px 30px 0px;
+}
+
+.carousel-inner .item img{
+    height:30%;
+    width:100%;
+}
+
+.carousel-caption .btn1{
+    width:150px;
+    height:40px;
+    background:none;
+    border:3px solid orange;
+    border-radius:50px;
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+    margin-right:1%;
+    
+}
+
+.carousel-caption .btn1:hover{
+    background-color: orange;
+    transition-duration:1s;
+}
+
+.carousel-caption .btn2{
+    width:150px;
+    height:40px;
+    background:none;
+    border:3px solid orange;
+    border-radius:50px;
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+}
+
+.carousel-caption .btn2:hover{
+    background-color: orange;
+    transition-duration:1s;
+}
+
+.carousel-caption .txt{
+    margin-bottom:100px;
+}
+
+/* About */
+
+.about{
+    background-color:rgb(250, 243, 243);
+    padding:60px 0px;
+}
+
+.about .img img{
+     width:100%;
+     height:60%;
+     margin-top:50px;
+   
+}
+
+.about .text h1{
+    font-family:"satisfy";
+    color:rgb(88, 83, 83);
+}
+
+.about .text .bold{
+    font-weight:800;
+}
+
+.about .text .para1{
+    font-family:"poppins";
+    font-size:15px;
+    color:rgb(116, 111, 111);
+}
+
+.about .text .glyphicon{
+    color:orange;
+}
+
+.about .text h3{
+    font-size:16px;
+    color:rgb(94, 89, 89);
+    font-family:"poppins";
+}
+
+.about .text .gray-text{
+    color:rgb(116, 113, 113);
+    font-family:"poppins";
+    font-size:16px;
+    margin-top:20px;
+}
+
+/* Our restaurant */
+
+.wrap{
+    padding:60px 0px;
+}
+
+.center{
+    text-align:center;
+    margin-bottom:35;
+}
+
+.center h1{
+    font-family:"satisfy";
+    font-weight:600;
+    color:rgb(78, 76, 76);
+}
+
+.center .org{
+    color:orange;
+}
+
+.center p{
+    font-size:16px;
+    color:rgb(83, 81, 81);
+    font-family:"poppins";
+    
+}
+
+.blocks{
+    background-color:#fff;
+    padding:30px 20px 30px 28px;
+    box-shadow:3px 3px 100px rgb(233, 228, 228);
+}
+
+.blocks:hover{
+    background-color:orange;
+    transition-duration:1s;
+ 
+    
+}
+
+.blocks h1{
+    color:rgb(78, 76, 76);
+}
+
+.blocks h3{
+    color:rgb(78, 76, 76);
+    font-weight:800;
+    font-size:25px;
+    font-family:"satisfy";
+    margin:25px 0px;
+}
+
+.blocks p{
+     font-size:16px;
+     color:rgb(139, 138, 138);
+}
+
+/* Our testy Menu */
+
+.testy-menu{
+    text-align:center;
+    margin-top:50px;
+}
+
+.check{
+    margin:50px 0px;
+}
+
+.testy-menu h1{
+    color:rgb(78, 76, 76);
+    font-family:"satisfy";
+    margin-bottom:30px;
+    font-weight:600;
+}
+
+.testy-menu .o{
+    color:orange;
+}
+
+.testy-menu .btn-1{
+    width:110px;
+    padding:6px 10px 6px 10px;
+    border:2px solid orange;
+    border-radius:30px;
+    background-color:orange;
+    color:#fff;
+    font-family:"poppins";
+}
+
+.testy-menu .btn{
+    width:110px;
+    border:2px solid orange;
+    border-radius:30px;
+    background:none;
+    font-family:"poppins";
+    color:black;
+}
+
+.testy-menu .btn:hover{
+    background-color:orange;
+    color:#fff;
+    transition-duration:1s;
+}
+
+.dish1 h3{
+    color:orange;
+    font-size:19px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.dish1 .gray{
+    color:rgb(216, 213, 213);
+    font-size:10px;
+}
+
+.dish1 .b{
+    color:rgb(85, 83, 83);
+    font-size:18px;
+}
+
+.dish1 i{
+    color:rgb(163, 162, 162);
+}
+
+.dish1{
+    margin-top:30px;
+}
+
+
+
+/* our special */
+
+.heading{
+    text-align:center;
+    margin-top:30px;
+}
+
+.space{
+    margin-bottom:60px;
+}
+
+.heading h1{
+    font-family:"satisfy";
+    font-weight:600;
+    color:rgb(78, 76, 76);
+}
+
+.heading .o{
+    color:orange;
+}
+
+.heading p{
+    font-size:17px;
+    font-weight:400;
+    font-family:"poppins";
+    color:rgb(78, 76, 76);
+}
+
+.left h4{
+    font-weight:600;
+    color:rgb(78, 76, 76);
+    font-size:17px;
+    margin-top:25px; 
+    cursor:pointer;
+}
+
+.left .atv{
+     color:orange;
+}
+
+.left h4:hover{
+    color:orange;
+    transition-duration:1s;
+}
+
+.middle h2{
+    font-family:"satisfy";
+    color:rgb(78, 76, 76);
+    font-weight:600;
+}
+
+.middle i{
+    font-size:15px;
+    color:rgb(148, 147, 147);
+    font-family:"poppins";
+}
+
+.middle p{
+    font-size:16px;
+    color:rgb(148, 147, 147);
+    font-family:"poppins";
+}
+
+.middle{
+    border-left: 2px solid rgb(221, 221, 221);
+    padding-left:20px;
+}
+
+/* events */
+
+.events{
+    background-image: url("../img/events-bg.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    padding:60px 0px;
+}
+
+.events .birthday img{
+    width:100%;
+}
+
+.organize-events{
+    text-align:center;
+    font-family:"satisfy";
+    margin-bottom:5%;
+}
+
+.organize-events .e-s{
+    color:orange;
+    
+}
+
+.organize-events h1{
+    font-weight:600;
+    font-size:40px;
+    color:#fff;
+}
+
+.birthday{
+    text-align:center;
+}
+
+.birthday h3{
+    color:orange;
+    font-family:"satisfy";
+    font-size:30px;
+}
+
+.birthday .whit{
+    font-family:"poppins";
+    color:#fff;
+    border-bottom:2px solid orange;
+    border: 40px;
+}
+
+
+/* Book Table */
+
+.book-table .formline-1 input{
+    padding:27px 100px 27px 10px;
+    border-color:rgb(172, 172, 172);
+    font-size:16px;
+}
+
+.book-table .formline-2 input{
+    padding:27px 100px 27px 10px;
+    border-color:rgb(172, 172, 172);
+    font-size:16px;
+}
+
+.book-table .formline-2{
+    margin:20px 0px;
+}
+
+.book-table .msg textarea{
+     border-color:rgb(172, 172, 172);
+     font-size:16px;
+     margin-top:20px;
+}
+
+.book-table{
+    padding:50px ;
+    margin-top:30px;
+    
+    
+}
+
+.b-white{
+    background-color:#fff;
+    box-shadow:3px 3px 100px rgb(233, 228, 228);
+}
+
+.s-btn{
+    text-align:center;
+    width:180px;
+    height:50px;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    border-radius:30px;
+    border:none;
+    background-color:orange;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+
+.tbl-book .btn-center{
+    text-align:center;
+}
+
+/* Photoes from our restaurant */
+
+.head{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+
+.head h1{
+    font-family:"satisfy";
+    color:rgb(78, 76, 76);
+    font-weight:600;
+}
+
+.head .o{
+    color:orange;
+}
+
+.head p{
+    font-family:"poppins";
+    font-size:17px;
+}
+
+.row-1 .restaurant-images img{
+    width:100%;
+}
+
+.row-2 .restaurant-images img{
+    width:100%;
+    margin-top:10px;
+}
+
+/*  proffesional chefs */
+
+
+.background-img{
+    background-image:url("../img/chefs-bg.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    padding:40px 0px 70px 0px;
+}
+
+.background-img .chef-1st img{
+    width:100%;
+    
+}
+
+.background-img .white-box{
+    background-color:#fff;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    margin-top:-70px;
+    text-align:center;
+    padding:12px 0px;
+}
+
+.background-img .white-box  h2{
+    color:rgb(94, 94, 94);
+    font-size:17px;
+    font-weight:400;
+    font-family:"poppins";
+    position:relative;
+    margin-bottom:-10px;
+}
+
+.background-img .white-box p{
+    font-family:"poppins";
+    position:relative;
+    margin-top:-10px;
+}
+
+.background-img .white-box span{
+    font-size:18px;
+    color:rgb(104, 104, 104);
+    padding:3px;
+}
+   
+.background-img .white-box span:hover{
+    color:orange;
+}
+
+
+/* contact */
+
+.bc-color{
+   background-color:#fff;
+   text-align:center;
+   padding:10px 0px;
+}
+
+
+.bc-color span{
+    font-size:30px;
+    background-color:cyan;
+    padding:13px;
+    border-radius:100%;
+    color:rgb(248, 183, 61);
+    background-color:rgb(253, 246, 232);
+}
+
+.bc-color span:hover{
+    background-color:orange;
+    color:#fff;
+    transition-duration:1s;
+   
+}
+
+.bc-color .york h3{
+    color:rgb(48, 47, 47);
+    font-weight:600;
+    font-family:"poppins";
+    font-size:19px;
+}
+
+.bc-color .york p{
+    color:rgb(122, 121, 121);
+    font-family:"poppins";
+}
+
+.bc-color-box2 .gap{
+    margin-top:25px;
+    
+}
+
+.bc-color-box2 .gap .name input{
+    padding-top:22px;
+    padding-bottom:22px;
+    font-family:"poppins";
+    font-size:16px;
+}
+
+.bc-color-box2 .gap .email input{
+    padding-top:22px;
+    padding-bottom:22px;
+    font-family:"poppins";
+    font-size:16px;
+}
+
+.bc-color-box2 .gap .subject input{
+    padding-top:22px;
+    padding-bottom:22px;
+    font-family:"poppins";
+    font-size:16px;
+}
+
+.bc-color-box2 .subject textarea{
+    font-family:"poppins";
+    font-size:16px;
+}
+
+.bc-color-box2 .name,.email{
+    margin-top:30px;
+}
+
+.bc-color-box2 .b{
+    width:150px;
+    height:50px;
+    background-color:rgb(255, 178, 35);
+    color:#fff;
+    border:none;
+    border-radius:30px;
+    margin-top:30px;
+    font-family:"poppins";
+    font-size:16px;
+    font-weight:400;
+}
+
+.btn-1{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.bc-color-box2 .b:hover{
+    background-color:orange;
+    transition-duration:1s;
+}
+
+.bc-color-box2{
+    padding:40px 30px;
+    background-color:#fff;
+}
+
+.bc-color{
+    box-shadow:2px 2px 20px rgb(233, 228, 228);
+}
+
+.bc-color-box2{
+    box-shadow:2px 2px 20px rgb(233, 228, 228);
+    margin-bottom:60px;
+}
+
+
+/* footer */
+
+.footer{
+    background-color:rgb(46, 45, 45);
+    width:100%;
+    height:350px;
+    text-align:center;
+}
+
+.footer h1{
+    color:orange;
+    font-family: "satisfy";
+    font-size:45px;
+    font-weight:600;
+    margin:24px 0px;
+}
+
+.footer p,a,h5{
+ color:#fff;
+}
+
+.footer p{
+    font-family:"poppins";
+    font-size:14px;
+    color:whitesmoke;
+}
+
+.footer a span{
+    background-color:rgb(65, 64, 64);
+    padding:12px;
+    border-radius:100%;
+    font-size:16px;
+   
+    margin:35px 0px 35px 7px;
+}
+
+.footer a span:hover{
+    background-color:orange;
+    color:#fff;
+    transition-duration:1s;
+}
+
+.footer p span{
+    font-weight:700;
+}
+
+.footer h5{
+    font-family:"poppins";
+
+}
+
+.footer h5 span{
+     color:orange;
+    
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width:400px){
+
+   .txt p{
+       display:none;
+   }
+
+   .carousel-caption .txt{
+    margin-bottom:20px;
+    } 
+
+    .carousel-caption .btn1{
+        width:100px;
+        font-size:11px;
+        display:inline;
+    }
+
+    .carousel-caption .btn2{
+        width:100px;
+        font-size:11px;
+        display:inline;
+    }
+
+
+}
+
+
+@media only screen and (max-width:600px){ 
+
+    .carousel-caption .txt h1{
+        font-weight:600;
+        font-size:34px;
+    }
+   
+    .carousel-caption .txt p{
+        font-size:15px;
+        margin:0px 0px 20px 0px;
+    }
+
+    .about .img img{
+        margin-top:10px;
+    }
+
+    .center h1{
+       font-size:28px;
+       font-weight:600;
+       color:rgb(78, 76, 76);
+    }
+
+    .center p{
+        font-size:15px;
+    }
+
+    .blocks{
+        margin-top:20px;
+        padding:30px 20px 30px 28px;
+        box-shadow:3px 3px 30px rgb(233, 228, 228);
+    }
+    
+    .testy-menu h1{
+        font-size:28px;
+    }
+
+    .special .heading h1{
+        font-size:28px;
+    }
+
+    .special .heading p{
+        font-size:15px;
+    }
+
+    .middle h2{
+        font-size:25px;
+    }
+
+    .events .organize-events h1{
+        font-size:28px;
+    }
+
+    .photos h1{
+        font-size:28px;
+    }
+
+    .photos p{
+        font-size:15px;
+    }
+
+    .restaurant-images img{
+        margin-top:5px;
+    }
+
+    .head h1{
+        font-size:28px;
+    }
+
+    .head p{
+        font-size:15px;
+    }
+
+    .background-img .chef-1st img{
+        margin-top:40px;
+    }
+
+}
+
+.no-margin{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+
